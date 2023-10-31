@@ -3,7 +3,7 @@
 
 ### SeopIgnore ###
 *.bat
-
+*.iml
 
 ### Eclipse ###
 .metadata
