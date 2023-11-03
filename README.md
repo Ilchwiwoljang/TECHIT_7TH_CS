@@ -78,7 +78,7 @@ TECHIT_7TH_CS
 기획서의 작성일 및 제출일자는 금요일이며 발표자가 주요 내용을 작성한 뒤  
 발표가 끝난 후 함께 마무리를 한다.
 
-[기획서 템플릿 바로가기]([https://likelion.notion.site/3df4f6b01f46408b848afde758675b85](https://likelion.notion.site/fde5d043ad4d428aa384d13cd2f5cc50))
+[기획서 템플릿 바로가기](https://likelion.notion.site/fde5d043ad4d428aa384d13cd2f5cc50)
 
 <br>
 
