@@ -140,8 +140,10 @@
 - 고수준 모듈은 저수준 모듈의 구현에 의존해서는 안된다.
 - 대상의 상위 요소로 참조하라.
 
----
 
 ## 참조
+
+---
+
 - [객체지향 프로그래밍 특징](https://www.codestates.com/blog/content/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%ED%8A%B9%EC%A7%95)
 - [객체 지향 설계 원칙](https://inpa.tistory.com/entry/OOP-%F0%9F%92%A0-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%EC%84%A4%EA%B3%84%EC%9D%98-5%EA%B0%80%EC%A7%80-%EC%9B%90%EC%B9%99-SOLID)
