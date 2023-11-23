@@ -125,7 +125,7 @@ RDBMS의 MySQL의 경우 인덱스가 없는 경우 **풀스캔**을 해야하�
 - #### **MongoDB 특징**
   - **문서 지향** 데이터베이스 입니다.
   - **유연한 스키마**를 가지며, 이로 인해 요구 사항이 변화함에 따라 데이터베이스 스키마를 쉽게 조정할 수 있습니다. <br><br>
-    <img src="img/img2.png" width="600"><br><br>
+    <img src="img/code.png" width="600"><br><br>
     <img src="img/mongodb2.png" width="400"><br><br><br>
 
 💡 **그래프 구조** DB로는 대표적으로 Neo4j가 있고, **컬럼 구조** DB는 Cassandra가 있으며,<br> 이 외에도 **Key-Value 구조이면서 Document 기능도 포함**한 DB인  DynamoDB 가 있습니다. <br><br><br><br>
