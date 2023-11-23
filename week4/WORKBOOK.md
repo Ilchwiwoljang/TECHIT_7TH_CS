@@ -118,7 +118,6 @@ RDBMS의 MySQL의 경우 인덱스가 없는 경우 **풀스캔**을 해야하�
 이로 인해 **Redis는 서비스가 성장해서 데이터량이 많아져도 응답 속도가 보장**이 되므로, 리스크가 적습니다. <br><br><br>
 
 
-
 ### 📂 Document 구조
 **데이터를 테이블이 아닌 문서처럼 저장하는 형태**이며, **JSON 형태의 데이터를 BSON(Binary JSON)으로 문서화 하여 저장**하며,<br> 컬렉션이라고 하는 그룹으로 묶어서 관리됩니다. 대표적인 DB로는 `MongoDB`가 있습니다. <br><br>
 
@@ -128,7 +127,17 @@ RDBMS의 MySQL의 경우 인덱스가 없는 경우 **풀스캔**을 해야하�
     <img src="img/code.png" width="600"><br><br>
     <img src="img/mongodb2.png" width="400"><br><br><br>
 
-💡 **그래프 구조** DB로는 대표적으로 Neo4j가 있고, **컬럼 구조** DB는 Cassandra가 있으며,<br> 이 외에도 **Key-Value 구조이면서 Document 기능도 포함**한 DB인  DynamoDB 가 있습니다. <br><br><br><br>
+#### 💡 MongoDB의 스키마 변경이 자유로운 이유 <br>
+
+서로 연관된 관계형 데이터베이스에서 스키마를 변경하는 것은 위험할 수 있습니다.<br>
+이는 다른 테이블 데이터에 영향을 미쳐 문제를 일으킬 수 있기 때문입니다.
+
+반면에 MongoDB는 스키마를 변경하려면 document에 필드를 추가,변경 또는 제거하면 되는데,<br>
+한 collection 안의 document들은 각각 다른 필드를 가질 수 있기 때문에<br> 이러한 변경이 다른 document에
+영향을 미치지 않습니다.<br><br><br><br>
+
+
+나머지 NoSQL 데이터베이스는 **그래프 구조** DB로는 대표적으로 Neo4j가 있고, **컬럼 패밀리 구조** DB는 Cassandra가 있으며,<br> 이 외에도 **Key-Value 구조이면서 Document 기능도 포함**한 DB인  DynamoDB 가 있습니다. <br><br><br><br>
 
 
 # 4. SQL vs NoSQL
@@ -140,7 +149,7 @@ RDBMS의 MySQL의 경우 인덱스가 없는 경우 **풀스캔**을 해야하�
 
 <img src="img/scalability.png" width="450"> <br><br>
 
-💡 서비스의 규모가 커지고, 사용자 수가 증가하며, 데이터 처리 요구사항이 늘어나는 상황에서 데이터를 안정적으로 처리하기 위해 사용하는 전략 <br>
+💡 서비스 규모가 커지고, 사용자 수가 증가하며, 데이터 처리 요구사항이 늘어나는 상황에서 데이터를 안정적으로 처리하기 위해 사용하는 전략 <br>
 `Scale Up`, `Scale Out` <br><br>
 
 **수직적 확장성(Scale Up): RDBMS**
