@@ -22,10 +22,14 @@
 
 <center><img src="https://github.com/Ilchwiwoljang/TECHIT_7TH_CS/assets/149384249/6ef8e889-a9a6-4344-acb9-15704cabd3ee" width="600"></center>
 
+## 트랜잭션을 왜 사용할까?
+- 데이터 베이스가 정확하고 일관된 상태를 유지하려면 트랜잭션이 필요하다.<br><br>
 
 
 ## 트랜잭션의 4가지 성질
-트랜잭션이 안전하게 수행된다는 것을 4가지 성질로 보장합니다.<br> 이러한 4가지를 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)라고 하는데, 이것을 첫 글자만 따서 ACID라고 합니다.
+트랜잭션이 안전하게 수행된다는 것을 4가지 성질로 보장합니다.<br> 
+이러한 4가지 성질은 각각 원자성(Atomicity), 일관성(Consistency), 격리성(Isolation), 지속성(Durability)을 의미합니다.<br>
+이것을 첫 글자만 따서 ACID라고 합니다.
 
 - **원자성(Atomicity)**: 트랜잭션 내에서 실행한 작업들은 마치 하나의 작업인 것처럼 모두 성공 하거나 모두 실패해야한다.(all or nothing)
 - **일관성(Consistency)**: 트랜잭션이 수행되기 전에 데이터베이스가 일관된 상태였다면, 트랜잭션이 수행된 후에도 데이터베이스가 일관된 상태를 유지해야 한다.
