@@ -38,7 +38,7 @@
 - N:M 관계를 위해 스키마를 디자인할 때에는 Join 테이블을 만들어 관리한다.
 - N:M 관계는 두 개의 1:N 관계와 그 모양이 같다.
 
-<img src="img/4.png" width="600">
+<img src="img/4.png" width="800">
 
 - customer_package 테이블에서는 고객 한 명이 여러 개의 여행 상품을 가질 수 있고. 여행 상품 하나가 여러 개의 고객을 가질 수 있다.
 - customer_package 테이블은 customer_id와 package_id를 묶어주는 역할이다.
@@ -47,7 +47,7 @@
 
 ### 자기 참조 관계(Self Referencing Relationship)
 
-<img src="img/5.png" width="600">
+<img src="img/5.png" width="400">
 
 - User 테이블의 recommend_id는 같은 User 테이블의 user_id와 연결되어 있다.
 - 한 명의 사용자(user_id)는 한 명의 추천인(recommend_id)을 가질 수 있다.
