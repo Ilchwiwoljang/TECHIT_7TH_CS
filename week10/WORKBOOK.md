@@ -2,15 +2,14 @@
 
 >
 > - HTTP가 무엇인지 설명할 수 있어야 한다.
->   - 특징
->   - 기본 구조
+> - HTTP 메시지 구조
 > - HTTP 상태코드에 무엇이 있는지 설명할 수 있어야 한다.
 >
 <br><br>
 
 # 1. HTTP
 ### HTTP란?
-HTTP란 Hyper Text Transfer Protocol의 준말로, 웹상에서 정보를 주고받을 수 있는 프로토콜입니다. 
+HTTP란 Hyper Text Transfer Protocol의 줄임말로, 웹상에서 정보를 주고받을 수 있는 프로토콜입니다. 
 하이퍼 텍스트라는 이름에서 알 수 있듯이 처음에는 HTML을 주고받는 데에 사용되었습니다.
 지금은 거의 모든 형태의 데이터, 예를 들면 JSON, 이미지 파일 심지어는 영상까지도 HTTP 프로토콜로 전송하고 있습니다.
 
@@ -40,7 +39,7 @@ HTTP 메시지의 두 가지 타입인 요청(requests)과 응답(responses)메�
 
 <img src="https://github.com/nnWon/Medium_Misson_SongNakWon/assets/149384249/971f30ff-d416-405e-9c3a-b3c7ded01587" width="80%" height="80%">
 
-<br><br>
+<br><br><br><br>
 
 ## 2-1. HTTP 메시지 구조
 <img src="https://github.com/nnWon/Medium_Misson_SongNakWon/assets/149384249/144db04c-d279-426f-a1c0-a302d1458fb8" width="80%" height="80%">
