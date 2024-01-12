@@ -20,9 +20,9 @@
 <br>
 
 # 1. 들어가기 🚪
-
 ---
-## 1-1 면접에서 질문하는 의도 <br><br>
+
+## 1-1 면접에서 질문하는 의도 파악하기<br><br>
 
 ### 1. 데이터 관리 이해: DB 관리 시스템의 기본 개념을 이해하고 있는지 확인
 
@@ -42,7 +42,6 @@ SQL은 엄격한 데이터 구조를 가지며, 정규화와 정밀한 트랜잭
 
 
 # 2. SQL(RDB)
-
 ---
 
 ## 2-1 RDB 특징
@@ -83,13 +82,13 @@ RDBMS는 **강력한 트랜잭션 처리**를 지원하며, 데이터의 **무�
 - 오픈소스
 - **객체 관계형 DBMS**
 - **복잡한 쿼리와 대규모 데이터 처리에 강점**
-- 뛰어난 트랜잭션 처리, ACID 규약을 완전히 준수
+- 높은 수준의 ANSI SQL 표준을 준수
 - 관리의 복잡성, 성능 최적화가 MySQL에 비해 더 필요<br><br><br><br>
 
 
 # 3. NoSQL
-
 ---
+
 ## 3-1 NoSQL 특징
 - NoSQL(Not Only SQL)은 관계형 베이스의 한계를 극복하기 위해 처음 등장하였고,<br> 
 일반적으로 관계형 데이터베이스보다 덜 제한적이고 유연하며 확장성 있다는 특징을 가지고 있습니다.
@@ -111,7 +110,7 @@ Java의 HashMap 자료구조와 같이 Key 하나에 Value 데이터가 전달�
 
 <img src="img/redis.png" width="700"><br><br>
 
-#### 💡 Redis 가 빠른 이유? <br>
+#### 💡 Redis의 속도가 빠른 이유 <br>
 Redis는 데이터 접근 시 key 값으로 value를 즉시 찾을 수 있는 **해시**를 사용하여 시간 복잡도가 O(1)이 걸리며,<br>
 RDBMS의 MySQL의 경우 인덱스가 없는 경우 **풀스캔**을 해야하므로 시간 복잡도가 O(n)이 소요됩니다.<br> (인덱스가 있는 경우 O(log n)으로 개선되지만 그래도 레디스의 O(1) 보다는 느립니다)
 
@@ -139,8 +138,8 @@ RDBMS의 MySQL의 경우 인덱스가 없는 경우 **풀스캔**을 해야하�
 
 
 # 4. SQL vs NoSQL
-
 ---
+
 ## 4-1 비교하기
 
 ### **1. Scalability(확장성)** <br>
@@ -215,8 +214,11 @@ Redis는 인메모리 기반의 Key-Value 구조를 가진 NoSQL 데이터베이
 <br>
 
 ---
-#### 🔖 Reference.
-[[DB] RDB 관계형 데이터베이스란 무엇일까?](https://danhandev.tistory.com/entry/DB-RDB-%EA%B4%80%EA%B3%84%ED%98%95-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C)<br>
+<details>
+<summary>🔖 Reference 펼치기</summary>
+<div markdown="1">
+
+<br> [[DB] RDB 관계형 데이터베이스란 무엇일까?](https://danhandev.tistory.com/entry/DB-RDB-%EA%B4%80%EA%B3%84%ED%98%95-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C)<br>
 https://yunyoung1819.tistory.com/201 <br>
 https://benlee73.tistory.com/178 <br>
 https://aws.amazon.com/ko/nosql/ <br>
@@ -224,3 +226,6 @@ https://aws.amazon.com/ko/nosql/ <br>
 https://www.youtube.com/watch?v=CjsVx9sARDU <br>
 https://www.youtube.com/watch?v=cnPRFqukzek <br>
 https://bruno-jang.tistory.com/34 <br>
+
+</div>
+</details>
